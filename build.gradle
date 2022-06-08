@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation "io.reactivex.rxjava3:rxjava:3.0.0-RC3"
+    implementation group: 'com.typesafe.akka', name: 'akka-actor-typed_2.13', version: '2.6.10'
+    implementation group: 'com.typesafe.akka', name: 'akka-actor-testkit-typed_2.13', version: '2.6.10'
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.12'
+}
+
+test {
+    useJUnitPlatform()
+}
