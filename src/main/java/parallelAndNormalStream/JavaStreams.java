@@ -162,5 +162,13 @@ public class JavaStreams {
                 .get();
         System.out.println(min17);
 
+        System.out.println("\nSample 18: ");
+        String words18 = "hola";
+        String reversed = words18.chars()
+                .mapToObj(c -> (char)c)
+                .reduce("", (s,c) -> c+s, (s1,s2) -> s2+s1);
+        System.out.println(reversed);
+        //https://stackoverflow.com/questions/24308146/why-is-a-combiner-needed-for-reduce-method-that-converts-type-in-java-8
+
     }
 }
