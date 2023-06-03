@@ -1,5 +1,7 @@
-package Streams.Util;
+package Streams2.MockData;
 
+import Streams2.Beans.Car;
+import Streams2.Beans.Person;
 import com.google.common.io.Resources;
 import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;

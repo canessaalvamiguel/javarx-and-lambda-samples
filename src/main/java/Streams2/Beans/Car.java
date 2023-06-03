@@ -1,4 +1,4 @@
-package Streams.Util;
+package Streams2.Beans;
 
 public class Car {
 
