@@ -1,9 +1,9 @@
-package parallelAndNormalStream;
+package Streams;
 
 import java.util.Arrays;
 import java.util.List;
 
-public class Main {
+public class ParallelStream {
 
     public static void main(String[] args) {
         List<Integer> listOfNumbers = Arrays.asList(1, 2, 3, 4);

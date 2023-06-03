@@ -1,13 +1,11 @@
-package parallelAndNormalStream;
-
-import scala.Char;
+package Streams;
 
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class JavaStreams {
+public class NormalStreams {
     public static void main(String[] args) {
         Integer sum = IntStream
                 .range(1, 10)
